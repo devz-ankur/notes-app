@@ -3,7 +3,7 @@ import "./globals.css";
 
 
 export const metadata = {
-  title: "Notes App",
+  title: "Notes App ",
 
 };
 

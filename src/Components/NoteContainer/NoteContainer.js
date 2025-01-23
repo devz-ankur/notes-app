@@ -14,7 +14,7 @@ const NoteContainer = (props) => {
   const notes = reverseArray(props.notes);
   return (
     <div className='note-container'>
-      <h2>Notes</h2>
+      <h2>Your Notes</h2>
       <div className='note-container-notes custom-scroll'>
         {notes.length > 0 ? (notes?.map((item) => (
           <Note key={item.id} note={item}
